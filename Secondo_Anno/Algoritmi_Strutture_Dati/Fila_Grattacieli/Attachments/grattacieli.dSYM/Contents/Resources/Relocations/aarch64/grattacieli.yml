@@ -1,0 +1,9 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/nicola/Sviluppo_SUPSI/Secondo_Anno/Algoritmi_Strutture_Dati/Fila_Grattacieli/Attachments/grattacieli'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _osserva, symObjAddr: 0x0, symBinAddr: 0x100003CC8, symSize: 0x94 }
+  - { offsetInCU: 0x52, offset: 0x52, size: 0x8, addend: 0x0, symName: _H, symBinAddr: 0x100008000, symSize: 0x0 }
+  - { offsetInCU: 0x71, offset: 0x71, size: 0x8, addend: 0x0, symName: _osserva, symObjAddr: 0x0, symBinAddr: 0x100003CC8, symSize: 0x94 }
+  - { offsetInCU: 0xD1, offset: 0xD1, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x94, symBinAddr: 0x100003D5C, symSize: 0x198 }
+...
