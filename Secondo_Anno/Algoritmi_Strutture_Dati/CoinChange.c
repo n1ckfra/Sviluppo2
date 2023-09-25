@@ -20,12 +20,14 @@ int main() {
   for (i = 0; i < 15; i++)
     sum += V[i] * VAL[i];
 
-  for (i = 15; 1 > 0; i--)
+  for (i = 15; 1 > 0; i--){
     sol[i] = sum / VAL[i];
     sum = sum - S[i] * VAL[i];
+  }
 
   for (i = 0; i < 15; i++)
     printf("%lld ", sol[i]);
+
   printf("\n");
   return 0;
 }
