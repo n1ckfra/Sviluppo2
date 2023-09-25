@@ -13,5 +13,6 @@ int main(){
     printf("%.0f    ", base);
     printf("%.0f    ", altezza);
     printf("%.0f    ",(base * 2) + (altezza * 2));
-    printf("%.0f    ", (base * altezza) / 2);
+    printf("%.0f    ", base * altezza);
+    printf
 }

@@ -6,23 +6,27 @@
 int osserva(int N, int H[]) {
     int maxSx, maxDx, max = 0;
 
+    // We find the maximum height
     for (int i = 0; i < N; i++)
     {
-        // Left side cycle
-        for (int j = i; j > 0 ; j--)
+        if (H[i] > max)
         {
-            
+            max = H[i];
         }
-
-        // Right side cycle
-        for (int k = i; k < N; k++)
-        {
-
-        }
+        
     }
     
-    
-    
+    // We check from each builing having height equal to max
+    for (int i = 0; i < N; i++)
+    {
+        int counter = 0;
+        if (H[i] < max)
+        {
+            counter++;
+        }
+        
+    }
+        
 }
 
 
