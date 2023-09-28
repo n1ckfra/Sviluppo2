@@ -10,25 +10,23 @@ void stampaAbaco(int numero) {
     int decine = (numero % 100) / 10;
     int unita = numero % 10;
 
-    printf("|");
-    for (int i = 0; i < centinaia; i++) {
-        printf("x");
+    int num[] = {centinaia, decine, unita};
+
+    for (int i = 0; i < 3; i++)
+    {
+        printf("|");
+        for (int j = 0; j < num[i]; j++)
+        {
+            printf("x");
+        }
+        printf("------");
+        for (int j = 0; j < (10 - num[i]); j++)
+        {
+            printf("x");
+        }
+        
+        printf("|\n");
     }
-    printf("------");
-
-    printf("|");
-
-    for (int i = 0; i < decine; i++) {
-        printf("x");
-    }
-    printf("------");
-
-    printf("|");
-
-    for (int i = 0; i < unita; i++) {
-        printf("x");
-    }
-    printf("------|\n");
 }
 
 int main() {

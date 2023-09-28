@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/nicola/Sviluppo_SUPSI/Secondo_Anno/Algoritmi_Strutture_Dati/Fila_Grattacieli/Attachments",
+      "program": "/Users/nicola/Sviluppo_SUPSI/Secondo_Anno/Algoritmi_Strutture_Dati/Fila_Grattacieli/Attachments/build/Debug/outDebug"
+    }
+  ]
+}

@@ -29,7 +29,6 @@ int osserva(int N, int H[]) {
         
 }
 
-
 int H[MAXN];
 
 int main() {
