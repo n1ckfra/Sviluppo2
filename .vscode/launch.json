@@ -6,8 +6,8 @@
       "type": "lldb",
       "request": "launch",
       "args": [],
-      "cwd": "/Users/nicola/Sviluppo_SUPSI/Secondo_Anno/Algoritmi_Strutture_Dati/Fila_Grattacieli/Attachments",
-      "program": "/Users/nicola/Sviluppo_SUPSI/Secondo_Anno/Algoritmi_Strutture_Dati/Fila_Grattacieli/Attachments/build/Debug/outDebug"
+      "cwd": "/Users/nicola/Sviluppo_SUPSI/Secondo_Anno/Linguaggi_Procedurali/Serie1",
+      "program": "/Users/nicola/Sviluppo_SUPSI/Secondo_Anno/Linguaggi_Procedurali/Serie1/build/Debug/outDebug"
     }
   ]
 }

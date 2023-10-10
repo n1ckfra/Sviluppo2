@@ -52,6 +52,7 @@ int osserva(int N, int H[]) {
         }
     }
 
+    // Ritorno il valore massimo contenuto nell'array copia, che corrisponde al numero di grattacieli
     int maxValue = H2[0];
     for (int i = 0; i < N; i++)
     {
