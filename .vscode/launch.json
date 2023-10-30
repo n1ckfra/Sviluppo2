@@ -6,8 +6,8 @@
       "type": "lldb",
       "request": "launch",
       "args": [],
-      "cwd": "/Users/nicola/Sviluppo_SUPSI/Secondo_Anno/Linguaggi_Procedurali/Serie2",
-      "program": "/Users/nicola/Sviluppo_SUPSI/Secondo_Anno/Linguaggi_Procedurali/Serie2/build/Debug/outDebug"
+      "cwd": "/Users/nicola/Sviluppo_SUPSI/Secondo_Anno/Linguaggi_Procedurali/Serie4",
+      "program": "/Users/nicola/Sviluppo_SUPSI/Secondo_Anno/Linguaggi_Procedurali/Serie4/build/Debug/outDebug"
     }
   ]
 }
