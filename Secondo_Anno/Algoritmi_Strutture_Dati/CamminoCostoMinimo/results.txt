@@ -1,0 +1,6 @@
+• Sorgente: 0       Destinazione: 5     Costo: 5458     Tempo: 0.0005
+• Sorgente: 0       Destinazione: 495   Costo: 30008    Tempo: 0.0102
+• Sorgente: 9       Destinazione: 1507  Costo: 28864    Tempo: 0.0195
+• Sorgente: 519     Destinazione: 3009  Costo: 20406    Tempo: 0.0401
+• Sorgente: 2999    Destinazione: 712   Costo: 20308    Tempo: 0.0039
+    

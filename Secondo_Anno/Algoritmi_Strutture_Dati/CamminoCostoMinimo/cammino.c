@@ -11,7 +11,7 @@ dijkstra(){
     boolean terminate = false
     while(!terminate){
         for(int i=0, i < N, i++){
-            if(MAT[CurrentNode][i] == 0){
+            if(MAT[CurrentNode][i] == 0 && !VISITED[i]){
                 Cost = DIST[CurrentNode] + MAT[CurrentNode][i]
                 if(Cost < DIST[i]){
                     DIST[i] = Cost
@@ -25,5 +25,18 @@ dijkstra(){
         }
     }
     return DIST[D];
+}
+
+
+int FindNext(N, DIST, VISITED){
+    MINDIST = MAXINT
+    NEXT = -1
+    for(int i=0, i < N, i++){
+        if(!VISITED[i] && DIST[i] < MINDIST){
+            MINDIST = DIST[i]
+            NEXT = i
+        }
+    }
+    return NEXT
 }
 */
