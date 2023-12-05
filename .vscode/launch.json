@@ -6,8 +6,8 @@
       "type": "lldb",
       "request": "launch",
       "args": [],
-      "cwd": "/Users/nicola/Sviluppo_SUPSI/Secondo_Anno/Linguaggi_Procedurali/Serie4",
-      "program": "/Users/nicola/Sviluppo_SUPSI/Secondo_Anno/Linguaggi_Procedurali/Serie4/build/Debug/outDebug"
+      "cwd": "/Users/nicola/Sviluppo_SUPSI/Secondo_Anno/Algoritmi_Strutture_Dati/Porgetto_Ferrario_Franceschini_Multiselect",
+      "program": "/Users/nicola/Sviluppo_SUPSI/Secondo_Anno/Algoritmi_Strutture_Dati/Porgetto_Ferrario_Franceschini_Multiselect/build/Debug/outDebug"
     }
   ]
 }
