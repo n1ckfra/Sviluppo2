@@ -73,21 +73,29 @@ int findMinimumIterations(int N, int M, int K_indexes[]) {
 
 
 int main() {
+    int N, M;
+    int *K;
 
-    // Insert initial value
-    printf("Insert N and M: ");
-    scanf("%d%d", &N, &M);
-    
+    // Uncommented the lines for file input/output
+    freopen("input0.txt", "r", stdin);
+    freopen("output0.txt", "w", stdout);
+
+    // Read N and M from the file
+    scanf("%d %d", &N, &M);
+
+    // Dynamically allocate memory for K
     K = (int *)malloc(N * sizeof(int));
+
+    // Read the K values from the file
     for (int i = 0; i < N; ++i) {
-        // Initialize each K value
-        printf("Insert K element numeber %d: ", i + 1);
         scanf("%d", &K[i]);
     }
 
     int min_iterations = findMinimumIterations(N, M, K);
-    printf("Minimum iterations: %d\n", min_iterations);
+    printf("%d", min_iterations);
 
-    free(K); // free the allocated memory
+    // Free the allocated memory
+    free(K);
+
     return 0;
 }

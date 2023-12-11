@@ -54,13 +54,29 @@ int findMinimumIterationsDP(int N, int M, int K_indexes[]) {
 }
 
 int main() {
-    // Example usage
-    int N = 3;
-    int M = 11;
-    int K_indexes[] = {2, 4, 10};
+    int N, M;
+    int *K;
 
-    int min_iterations = findMinimumIterationsDP(N, M, K_indexes);
-    printf("Minimum iterations: %d\n", min_iterations);
+    // Uncommented the lines for file input/output
+    freopen("input0.txt", "r", stdin);
+    freopen("output0.txt", "w", stdout);
+
+    // Read N and M from the file
+    scanf("%d %d", &N, &M);
+
+    // Dynamically allocate memory for K
+    K = (int *)malloc(N * sizeof(int));
+
+    // Read the K values from the file
+    for (int i = 0; i < N; ++i) {
+        scanf("%d", &K[i]);
+    }
+
+    int min_iterations = findMinimumIterationsDP(N, M, K);
+    printf("%d", min_iterations);
+
+    // Free the allocated memory
+    free(K);
 
     return 0;
 }
