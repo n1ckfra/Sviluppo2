@@ -1,0 +1,20 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "SimpleThreads",
+      "request": "launch",
+      "mainClass": "SimpleThreads",
+      "projectName": "SistempiOperativi_ae344282"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/nicola/VisualStudio_SUPSI/Terzo_Anno/SistempiOperativi",
+      "program": "/Users/nicola/VisualStudio_SUPSI/Terzo_Anno/SistempiOperativi/build/Debug/outDebug"
+    }
+  ]
+}
